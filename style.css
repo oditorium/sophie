@@ -1,9 +1,13 @@
 body {
+	background-color: red1;
 	margin: 10px 30px;
 	background-color: rgb(241,241,241);
-	font-family: 'Brush Lettering One'; 
+	
+   	font-family: 'Brush Lettering One'; 
+
 	font-weight: normal; 
-	font-style: italic;
+	font-style: italic; 
+	
 }
 
 #outer {
@@ -17,16 +21,20 @@ body {
 	background-color: rgb(215,180,255);
 	position: relative;
 }
-
 #header h1 {
 	position: absolute;
 	top: 50px;
 	left: 300px;
 }
+#menu {
+	position: absolute;
+	bottom:50px;
+	left: 200px;
+}
 
 #main {
 	width: 800px;
-	margin: 0px 0px 0px 100px;
+	margin: 0px 0px 20px 100px;
 	b1ackground-color: rgb(100,180,255);	
 }
 
@@ -34,5 +42,14 @@ body {
 	width: 100%;
 	height: 200px;
 	background-color: rgb(215,180,255);
+	position: relative;	
 }
+#copyr {
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 80px;
+}
+
+
 
