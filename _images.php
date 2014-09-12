@@ -129,5 +129,27 @@ The images have been sourced from a subset of the following sites
 <li><a href='http://www.lifeofpix.com/' target='_blank'>Life of Pix</a></li>
 <li><a href='http://deathtothestockphoto.com/' target='_blank'>Death to the Stockphoto</a></li>
 </ul>
+
+<h3>Fonts</h3>
+
+The fonts currently in use are
+<ul>
+<li style="font-family:'Brush Lettering One'; font-weight: normal; font-style: italic;">
+	<a href='http://openfontlibrary.org/en/font/brush-lettering-one' target='_blank'>Brush Lettering One (italic)</a>
+</li>
+<li style="font-family:'Grundschrift'; font-weight: normal; font-style: italic;">
+	<a href='http://openfontlibrary.org/en/font/grundschrift' target='_blank'>Grundschrift (italic)</a>
+</li>
+<li style="font-family:'Parisienne'; font-weight: normal; font-style: normal;">
+	<a href='https://www.google.com/fonts/specimen/Parisienne' target='_blank'>Parisienne	</a>
+</li>
+</ul>
+
+
+They have been sourced from a subset of the following sites
+<ul>
+<li><a href='http://openfontlibrary.org/' target='_blank'>Open Font Library</a></li>
+<li><a href='https://www.google.com/fonts' target='_blank'>Google Fonts</a></li>
+</ul>
 END;
 

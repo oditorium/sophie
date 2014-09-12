@@ -61,6 +61,13 @@ $pg_menu
 </div>
 END;
 
+/////////////////////////////////////////////////////////////////////////////////////////////
+// FONTS
+/////////////////////////////////////////////////////////////////////////////////////////////
+$fonts=[];
+$fonts[] = ["Brush Lettering One", "http://openfontlibrary.org/face/brush-lettering-one"];
+$fonts[] = ["Grundschrift", "http://openfontlibrary.org/face/grundschrift"];
+$fonts[] = ["Parisienne", "http://fonts.googleapis.com/css?family=Parisienne"];
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////
@@ -139,8 +146,10 @@ break;
 	
 	<title><?php echo $pg_title?></title>	
 	<link rel='stylesheet' type='text/css' href='style.css'/>
-	<link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/brush-lettering-one" 
-		rel="stylesheet" type="text/css"/>
+	
+	<?php foreach ($fonts as $f) {?>
+	<link rel="stylesheet" media="screen" href="<?php echo $f[1]?>" rel="stylesheet" type="text/css"/>
+	<?php }?>
 
 </head>
 

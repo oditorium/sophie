@@ -3,8 +3,7 @@ body {
 	margin: 10px 30px;
 	background-color: rgb(241,241,241);
 	
-   	font-family: 'Brush Lettering One'; 
-
+	font-family: 'Grundschrift'; 
 	font-weight: normal; 
 	font-style: italic; 
 	
@@ -22,14 +21,23 @@ body {
 	position: relative;
 }
 #header h1 {
+	font-family: 'Brush Lettering One'; 
+	font-weight: bolder; 
+	font-style: italic; 
+	font-size: 42px;
+	letter-spacing: 3px;
 	position: absolute;
 	bottom: 80px;
-	left: 350px;
+	left: 320px;
 }
 #menu {
+	font-family: 'Brush Lettering One'; 
+	font-weight: normal; 
+	font-style: italic; 
+	font-size: 14px;
 	position: absolute;
 	bottom:50px;
-	left: 200px;
+	left: 330px;
 }
 
 #main {
@@ -45,8 +53,14 @@ body {
 	position: relative;	
 }
 #copyr {
-	position: relative;
+	font-family: 'Brush Lettering One'; 
+	font-weight: normal; 
+	font-style: italic; 
+	font-size: 16px;
+	letter-spacing: 1px;
 	
+	
+	position: relative;
 	width: 100%;
 	text-align: center;
 	position: absolute;
@@ -54,8 +68,9 @@ body {
 }
 #attribution {
 	position: absolute;
-	right: 0px;
-	bottom: 0px;
+	font-size: 14px;
+	right: 10px;
+	bottom: 3px;
 }
 
 img.preview {
