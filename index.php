@@ -60,6 +60,12 @@ $pg_menu
 END;
 
 
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+// RENDER INDIVIDUAL PAGES
+/////////////////////////////////////////////////////////////////////////////////////////////
+global $pg_main;
+
 switch($pgid){
 
 ////////////////////////////////////////////////////////////////
@@ -72,71 +78,43 @@ break;
 ////////////////////////////////////////////////////////////////
 // pg=home
 case 'about':
-$pg_main = <<<END
-<h2>About this website</h2>
-blabla
-
-<h2>About Sophie</h2>
-blablabla
-
-<br>
-<img src='img/sophie-turkey-cropped.jpg'/ style='width: 200px'>	
-<br>
-END;
+include('_about.php');
 break;
 
 ////////////////////////////////////////////////////////////////
 // pg=cats
 case 'cats':
-$pg_main = <<<END
-<h2>Cats</h2>
-blabla
-END;
+include('_cats.php');
 break;
 
 ////////////////////////////////////////////////////////////////
 // pg=cats
 case 'dogs':
-$pg_main = <<<END
-<h2>Dogs</h2>
-blabla
-END;
+include('_dogs.php');
 break;
 
 ////////////////////////////////////////////////////////////////
 // pg=rabbits
 case 'rabbits':
-$pg_main = <<<END
-<h2>Rabbits</h2>
-blabla
-END;
+include('_rabbits.php');
 break;
 
 ////////////////////////////////////////////////////////////////
 // pg=chinchillas
 case 'chinchillas':
-$pg_main = <<<END
-<h2>Chinchillas</h2>
-blabla
-END;
+include('_chinchillas.php');
 break;
 
 ////////////////////////////////////////////////////////////////
 // pg=guineapigs
 case 'guineapigs':
-$pg_main = <<<END
-<h2>Guinea Pigs</h2>
-blabla
-END;
+include('_guineapigs.php');
 break;
 
 ////////////////////////////////////////////////////////////////
 // pg=hamsters
 case 'hamsters':
-$pg_main = <<<END
-<h2>Hamsters</h2>
-blabla
-END;
+include('_hamsters.php');
 break;
 
 }
@@ -163,19 +141,16 @@ break;
 	<div id='outer'>
 
 		<div id='header'>
-			#header
 			<h1 id='header_h1'><?php echo $pg_header_h1?></h1>
 			<?php echo $pg_header?>
 			<?php echo $pg_menu?>
 		</div>
 
 		<div id='main'>
-			#main
 			<?php echo $pg_main?>
 		</div>
 
 		<div id='footer'>
-			#footer
 			<?php echo $pg_footer?>
 		</div>
 

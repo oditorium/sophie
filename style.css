@@ -23,8 +23,8 @@ body {
 }
 #header h1 {
 	position: absolute;
-	top: 50px;
-	left: 300px;
+	bottom: 80px;
+	left: 350px;
 }
 #menu {
 	position: absolute;
