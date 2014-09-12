@@ -45,11 +45,27 @@ body {
 	position: relative;	
 }
 #copyr {
+	position: relative;
+	
 	width: 100%;
 	text-align: center;
 	position: absolute;
 	top: 80px;
 }
+#attribution {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
 
-
+img.preview {
+	width: 100%;
+}
+img.heading {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	width: 200px;
+	opacity: 0.9;
+}
 

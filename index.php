@@ -29,9 +29,11 @@ $pg_header_h1 = "How to take care of pets";
 
 $pg_footer = <<<END
 <div id='copyr'>Created By and (c) Sophie 2014</div>
+<a id='attribution' href='?pg=img'>attribution</a>
 END;
 
 $pg_header = <<<END
+<img class='heading' src='img/meerkat-head-2.png'/>
 END;
 
 
@@ -115,6 +117,12 @@ break;
 // pg=hamsters
 case 'hamsters':
 include('_hamsters.php');
+break;
+
+////////////////////////////////////////////////////////////////
+// pg=img
+case 'img':
+include('_images.php');
 break;
 
 }
