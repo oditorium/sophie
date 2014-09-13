@@ -133,6 +133,21 @@ include('_images.php');
 break;
 }
 
+////////////////////////////////////////////////////////////////
+// GENERATING FAVICONS
+/*
+
+we assume that the favicon is in a file called *favicon-raw.jpg* in a directory call img/ico
+we then can generate the icons as follows
+	
+	convert -resize 64x64 favicon-raw.jpg favicon.jpg
+	convert -resize 144x144 favicon-raw.jpg apple-touch-icon-xlarge.png
+	convert -resize 114x114 favicon-raw.jpg apple-touch-icon-large.png
+	convert -resize 72x72 favicon-raw.jpg apple-touch-icon-medium.png
+	convert -resize 57x57 favicon-raw.jpg apple-touch-icon-small.png
+
+*/
+
 ?>
 
 
@@ -146,8 +161,16 @@ break;
 	<title><?php echo $pg_title?></title>	
 	<link rel='stylesheet' type='text/css' href='style.css'/>
 	
+	<!-- FAVICONS AND APPLE TOUCH ICONS -->
+	<link href='img/ico/favicon.ico' rel='shortcut icon' type='image/x-icon' />
+	<link href='img/ico/apple-touch-icon-xlarge.png' rel='apple-touch-icon-precomposed' sizes='144x144' type='image/png'/>
+	<link href='img/ico/apple-touch-icon-large.png' rel='apple-touch-icon-precomposed' sizes='114x114' type='image/png'/>
+	<link href='img/ico/apple-touch-icon-medium.png' rel='apple-touch-icon-precomposed' sizes='72x72' type='image/png'/>
+	<link href='img/ico/apple-touch-icon-small.png' rel='apple-touch-icon-precomposed' type='image/png'/>
+	
+	<!-- FONTS -->
 	<?php foreach ($fonts as $f) {?>
-	<link rel="stylesheet" media="screen" href="<?php echo $f[1]?>" rel="stylesheet" type="text/css"/>
+	<link rel='stylesheet' media='screen' href='<?php echo $f[1]?>' rel='stylesheet' type='text/css'/>
 	<?php }?>
 
 </head>
