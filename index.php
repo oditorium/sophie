@@ -148,6 +148,20 @@ we then can generate the icons as follows
 
 */
 
+////////////////////////////////////////////////////////////////
+// IOS FULLSCREEN APP TAGES
+/*
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="viewport" content="width=device-width" />
+	<link rel="apple-touch-startup-image" href="home.png" />  -- 320x460
+	
+	
+	http://www.bennadel.com/blog/1945-using-the-cache-manifest-with-iphone-s-app-mode-for-native-web-applications.htm
+	<html manifest="./cache_manifest.cfm">
+*/
+
 ?>
 
 
@@ -167,6 +181,10 @@ we then can generate the icons as follows
 	<link href='img/ico/apple-touch-icon-large.png' rel='apple-touch-icon-precomposed' sizes='114x114' type='image/png'/>
 	<link href='img/ico/apple-touch-icon-medium.png' rel='apple-touch-icon-precomposed' sizes='72x72' type='image/png'/>
 	<link href='img/ico/apple-touch-icon-small.png' rel='apple-touch-icon-precomposed' type='image/png'/>
+	
+	<!-- IOS FULLSCREEN APP TAGS -->
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 	
 	<!-- FONTS -->
 	<?php foreach ($fonts as $f) {?>
