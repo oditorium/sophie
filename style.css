@@ -6,6 +6,7 @@ body {
 	font-family: 'Grundschrift'; 
 	font-weight: normal; 
 	font-style: italic; 
+	font-size: 20px;
 	
 }
 
@@ -34,16 +35,19 @@ body {
 	font-family: 'Brush Lettering One'; 
 	font-weight: normal; 
 	font-style: italic; 
-	font-size: 14px;
+	font-size: 16px;
 	position: absolute;
 	bottom:50px;
-	left: 330px;
+	left: 300px;
 }
 
 #main {
 	width: 800px;
 	margin: 0px 0px 20px 100px;
 	b1ackground-color: rgb(100,180,255);	
+}
+#main p {
+	line-height: 150%;
 }
 
 #footer {
@@ -58,8 +62,7 @@ body {
 	font-style: italic; 
 	font-size: 16px;
 	letter-spacing: 1px;
-	
-	
+		
 	position: relative;
 	width: 100%;
 	text-align: center;
@@ -82,5 +85,45 @@ img.heading {
 	top: 20px;
 	width: 200px;
 	opacity: 0.9;
+}
+
+img.onpage {
+	width: 300px;
+	border-radius: 10px;
+	margin: 20px;
+}
+img.onpage-small {
+	width: 100px;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+img.left {
+	float: left;
+	margin-left: 0px;
+}
+
+img.right {
+	float: right;
+	margin-right: 0px;
+}
+#img_sophie {
+	width: 200px;
+	border-radius: 10px;
+	float: right;
+	margin: 20px;
+	margin-right: 0px;
+}
+div.letter {
+	font-family: 'Parisienne'; 
+	font-weight: normal; 
+	font-style: normal; 
+	font-size: 32px;
+	letter-spacing: 1px;
+}
+
+
+h2, h3, h4 {
+	clear: left;
 }
 
