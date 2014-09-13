@@ -131,7 +131,6 @@ break;
 case 'img':
 include('_images.php');
 break;
-
 }
 
 ?>
