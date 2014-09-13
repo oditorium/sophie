@@ -172,6 +172,9 @@ we then can generate the icons as follows
 	<?php foreach ($fonts as $f) {?>
 	<link rel='stylesheet' media='screen' href='<?php echo $f[1]?>' rel='stylesheet' type='text/css'/>
 	<?php }?>
+	
+	<!-- SCRIPTS -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 </head>
 
