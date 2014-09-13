@@ -29,7 +29,7 @@ $pg_header_h1 = "How to take care of pets";
 
 $pg_footer = <<<END
 <div id='copyr'>Created By and (c) Sophie 2014</div>
-<a id='attribution' href='?pg=img'>attribution</a>
+<a id='attribution' class='internal' href='?pg=img'>attribution</a>
 END;
 
 $pg_header = <<<END
@@ -52,7 +52,7 @@ $menu['hamsters'] = "Hamsters";
 
 $menu_items = [];
 foreach ($menu as $target => $name)
-	$menu_items[] = "<a class='menu' href='?pg=$target'>$name</a>";
+	$menu_items[] = "<a class='menu internal' href='?pg=$target'>$name</a>";
 $pg_menu = join(" - ", $menu_items);
 
 $pg_menu = <<<END
@@ -175,6 +175,7 @@ we then can generate the icons as follows
 	
 	<!-- SCRIPTS -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="script.js"></script>
 
 </head>
 
